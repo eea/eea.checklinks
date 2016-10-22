@@ -18,7 +18,7 @@ per line.
 
 The tool will scan each page html and extract links from the page. 
 
-If a EXCLUDE_LINKS variable is passed the urls under that domain wil be skipped 
+If the optional variable EXCLUDE_LINKS is passed the urls containing that string wil be skipped 
 for checking. This can be useful if you want to extract and check only external 
 links from your site. In this last case you
 pass the environment variable EXCLUDE_LINKS=yourdomain.com.
