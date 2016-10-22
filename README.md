@@ -10,7 +10,7 @@ it requires [docker engine](https://docs.docker.com/engine/installation/) instal
 1. git clone this repo
 2. cd &lt;reponame&gt;
 3. docker build -t link-checker .
-4. docker run -it --rm -v  &lt;path-to-data-folder&gt:/checklinks/app/data:z -e "EXCLUDE_LINKS=.europa.eu" --name my-running-linkchecker linkchecker
+4. docker run -it --rm -v  path-to-data-folder:/checklinks/app/data:z -e "EXCLUDE_LINKS=.europa.eu" --name my-running-linkchecker linkchecker
 
 The "path-to-data-folder" is a path to a folder on your host where you must make
 available a file (urls-to-analyze.txt) with urls. The file must contain one page url 
